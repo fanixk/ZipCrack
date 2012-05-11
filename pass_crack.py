@@ -18,8 +18,6 @@ def crack():
                 str_pass = ''
     return "not found"
                 
-            
-
 if __name__ == '__main__':
     from timeit import Timer
     t = Timer("print crack()", "from __main__ import crack")
